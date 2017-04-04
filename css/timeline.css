@@ -5,6 +5,7 @@ body {
 
 .block-content {
   min-height: 100vh;
+  margin-top: 1em;
 }
 
 block-content p {
