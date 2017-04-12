@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="zh">
+
 <head>
 	<meta charset="UTF-8">
 	<title>时间的朋友留影馆|景色</title>
@@ -7,6 +8,7 @@
 	<link href="css/head.css" type="text/css" rel="stylesheet">
 	<link href="css/landscape.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
 	<div class="photo-head">
 		<div class="photo-album">
@@ -37,9 +39,7 @@
 		</div>
 	</div>
 
-
-
-	<article class="htmleaf-container">
+	<div class="htmleaf-container">
 		<div class="container">
 			<div class="row fooContainer">
 				<div class="col-md-3 fooReveal"><img class="img-thumbnail" src="img/14.jpg"></div>
@@ -76,22 +76,29 @@
 				<div class="col-md-3 fooReveal"><img class="img-thumbnail" src="img/14.jpg"></div>
 			</div>
 		</div>
-	</article>
+	</div>
 
 	<script src="dist/scrollreveal.min.js"></script>
-    <script>
-      var fooReveal = {
-		  delay    : 200,
-		  distance : '200px',
-		  easing   : 'ease-in-out',
-		  rotate   : { z: 10 },
-		  scale    : 1.1,
-		  reset    : true
+	<script>
+		var fooReveal = {
+			delay: 200,
+			distance: '200px',
+			easing: 'ease-in-out',
+			rotate: {
+				z: 10
+			},
+			scale: 1.1,
+			reset: true
 		};
 
 		window.sr = ScrollReveal()
-		  .reveal( '.fooReveal', fooReveal )
-		  .reveal( '#chocolate', { delay: 500, scale: 0.9 ,reset:true } );
-  </script>
+			.reveal('.fooReveal', fooReveal)
+			.reveal('#chocolate', {
+				delay: 500,
+				scale: 0.9,
+				reset: true
+			});
+	</script>
 </body>
+
 </html>
