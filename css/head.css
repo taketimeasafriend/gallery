@@ -1,5 +1,5 @@
 body {
-    background-color: #494A5F;
+    background-color: #333;
     color: #D5D6E2;
     font-family: "Lucida handwriting", "Snell Roundhand", "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -18,8 +18,9 @@ a.polaroid {
     color: #333;
     padding: 10px 10px 20px 10px;
     width: 150px;
-    border: 1px solid #BFBFBF;
-    background-color: white;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    background: url(http://ogudt6aal.bkt.clouddn.com/image/photo_bg.gif) repeat fixed center;
     z-index: 2;
     font-size: 0.7em;
     -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -30,7 +31,7 @@ a.polaroid {
 
 a.polaroid:hover, a.polaroid:focus, a.polaroid:active {
     z-index: 999;
-    border-color: #6A6A6A;
+    border-color: #fff;
     -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -56,6 +57,7 @@ a img {
     margin: 0 auto;
     height: 400px;
     margin-top: 20px;
+    font-weight: 300;
 }
 
 .photo-album .polaroid {
@@ -72,40 +74,53 @@ a img {
 }
 
 .photo-album h1 span {
-    background-color: white;
+    background-color: #222;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 100;
     padding: 0.4em 0.8em 0.3em 0.8em;
     -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    border: 1px solid #6A6A6A;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+    border: 2px solid #eee;
+    border-radius: 12px;
 }
 
 .photo-album .small {
-    width: 75px;
-    padding: 6px 6px 12px 6px;
+    width: 100px;
+    padding: 3px 3px 6px 3px;
     font-size: 0.6em;
 }
 
 .photo-album .small img {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
 }
 
 .photo-album .medium {
-    width: 200px;
-    padding: 13px 13px 26px 13px;
+    width: 210px;
+    padding: 8px 8px 16px 8px;
     font-size: 0.8em;
 }
 
 .photo-album .medium img {
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
+}
+
+.photo-album .medium2 {
+    width: 150px;
+    padding: 5px 5px 10px 5px;
+    font-size: 0.7em;
+}
+
+.photo-album .medium2 img {
+    width: 150px;
+    height: 150px;
 }
 
 .photo-album .large {
     width: 300px;
-    padding: 20px 20px 30px 20px;
+    padding: 10px 10px 30px 10px;
     font-size: 1em;
 }
 
@@ -140,7 +155,7 @@ a img {
 
 .photo-album .img4 {
     top: 10px;
-    left: 495px;
+    left: 550px;
     -webkit-transform: rotate(-20deg);
     -moz-transform: rotate(-20deg);
     transform: rotate(-20deg);
@@ -149,9 +164,9 @@ a img {
 .photo-album .img5 {
     bottom: 0;
     right: 0;
-    -webkit-transform: rotate(1deg);
-    -moz-transform: rotate(1deg);
-    transform: rotate(1deg);
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    transform: rotate(-30deg);
 }
 
 .photo-album .img6 {
@@ -181,17 +196,17 @@ a img {
 .photo-album .img9 {
     bottom: 0;
     left: 0;
-    -webkit-transform: rotate(-8deg);
-    -moz-transform: rotate(-8deg);
-    transform: rotate(-8deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    transform: rotate(20deg);
 }
 
 .photo-album .img10 {
     top: 0;
     left: 20px;
-    -webkit-transform: rotate(8deg);
-    -moz-transform: rotate(8deg);
-    transform: rotate(8deg);
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    transform: rotate(-50deg);
 }
 
 .photo-album .img11 {
@@ -204,7 +219,7 @@ a img {
 
 .photo-album .img12 {
     top: 0;
-    left: 680px;
+    left: 720px;
     -webkit-transform: rotate(18deg);
     -moz-transform: rotate(18deg);
     transform: rotate(18deg);
@@ -220,7 +235,7 @@ a img {
 
 .photo-album .img14 {
     top: 90px;
-    left: 430px;
+    left: 460px;
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
     transform: rotate(15deg);
