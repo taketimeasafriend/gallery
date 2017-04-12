@@ -1,8 +1,10 @@
 body {
-    background-color: #333;
+    background-color: rgb(27,27,27);
     color: #D5D6E2;
     font-family: "Lucida handwriting", "Snell Roundhand", "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 16px;
+    padding:0 auto;
+    margin:0 auto;
 }
 
 .amp {
@@ -50,7 +52,12 @@ a img {
     border: none;
     display: block;
 }
-
+.photo-head {
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-bottom: 2px solid #ccc;
+    border-radius: 20px;
+}
 .photo-album {
     position: relative;
     width: 1000px;
