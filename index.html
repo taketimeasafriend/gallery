@@ -11,10 +11,12 @@
 	<link href="css/imageviewer.css" type="text/css" rel="stylesheet">
 	<link href="css/test.css" type="text/css" rel="stylesheet">
 
+
 	<script src="js/jquery.js?v=1.83.min" type="text/javascript"></script>
 	<script src="js/to-top.js"></script>
 </head>
-
+<!--------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------->
 <body>
 	<div class="photo-head">
 		<div class="photo-album">
@@ -101,7 +103,6 @@
 				</div>
 
 
-
 			</div>
 		</div>
 	</div>
@@ -122,13 +123,13 @@
 	</div>
 
 
-
+<!--------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------->
   <!--返回顶部-->
 	<div style="display: none;" id="rocket-to-top">
 		<div style="opacity:0;display: block;" class="level-2"></div>
 		<div class="level-3"></div>
 	</div>
-
   <!--图片动画-->
 	<script src="js/scrollreveal.min.js"></script>
 	<script>
@@ -150,9 +151,7 @@
 				reset: true
 			});
 	</script>
-
-
-
+  <!--图片缩放-->
 	<script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')</script>
 	<script type="text/javascript" src="js/imageviewer.min.js"></script>
 	<script type="text/javascript">
@@ -161,7 +160,6 @@
             $('.gallery-items').click(function () {
                 var imgSrc = this.src,
                     highResolutionImage = $(this).data('high-res-img');
-
                 viewer.show(imgSrc, highResolutionImage);
             });
         });

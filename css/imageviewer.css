@@ -25,12 +25,11 @@
   width: 32px;
   height: 32px;
   position: absolute;
-  right: 20px;
-  top: 20px;
+  top: 10px;
+	right: 20px;
   cursor: pointer;
   text-align: center;
   overflow: hidden;
-  text-shadow: 0px 0px 3px #6d6d6d;
   -webkit-transition: all ease 200ms;
   -moz-transition: all ease 200ms;
   -o-transition: all ease 200ms;
@@ -39,7 +38,7 @@
 .iv-close:after,
 .iv-close:before {
   content: "";
-  height: 4px;
+  height: 2px;
   width: 32px;
   background: #FFF;
   position: absolute;
@@ -73,9 +72,10 @@
   width: 150px;
   height: 150px;
   position: absolute;
-  top: 20px;
-  left: 20px;
-  border: 1px solid #666;
+  top: 50px;
+	right: 20px;
+  border: 1px solid #eee;
+  border-radius: 6px;
   background: black;
   z-index: 100;
   -webkit-box-sizing: content-box;
@@ -126,10 +126,11 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  border: 1px solid #666;
+  border: 1px solid #eee;
+  border-radius: 6px;
   border-top: 0;
   background: rgba(204, 204, 204, 0.1);
-  height: 15px;
+  height: 10px;
   position: absolute;
   top: 150px;
   left: -1px;
@@ -137,8 +138,9 @@
 
 .iv-zoom-handle {
   width: 20px;
-  height: 15px;
-  background: #ccc;
+  height: 10px;
+  background: #d00;
+  border-radius: 6px;
   position: absolute;
 }
 
