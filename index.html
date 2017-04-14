@@ -8,6 +8,7 @@
 	<link href="css/head.css" type="text/css" rel="stylesheet">
 	<link href="css/landscape.css" type="text/css" rel="stylesheet">
 	<link href="css/to-top.css" type="text/css" rel="stylesheet">
+	<link href="css/imageviewer.css" type="text/css" rel="stylesheet">
 	<link href="css/test.css" type="text/css" rel="stylesheet">
 
 	<script src="js/jquery.js?v=1.83.min" type="text/javascript"></script>
@@ -88,7 +89,16 @@
 						</span>
 					</a>
 				</div>
-
+				<!--添加示意图-->
+				<div class="col-md-3 fooReveal">
+					<a href="#ccc">
+						<img class="img-thumbnail" src="img/16.jpg">
+						<span>
+							<h2>北包包</h2>
+							bbb
+						</span>
+					</a>
+				</div>
 
 
 
@@ -98,14 +108,18 @@
 
   <!--添加详图-->
 	<div id="aaa" class="col-md-3-overlay">
-		<img alt="image" src="images/full/14.jpg">
+		<img src="images/full/14.jpg" >
 		<a class="col-md-3-close" href="#none"><i class="fa fa-times-circle"></i> 关闭</a>
 	</div>
 	<div id="bbb" class="col-md-3-overlay">
-		<img alt="image" src="images/full/13.jpeg">
+		<img src="images/full/13.jpeg" >
 		<a class="col-md-3-close" href="#none"><i class="fa fa-times-circle"></i> 关闭</a>
 	</div>
-
+	<div id="ccc" class="col-md-3-overlay">
+		<img src="images/full/14.jpg" data-high-res-src="images/full/14.jpg" alt="" class="gallery-items">
+		<a class="col-md-3-close" href="#none"><i class="fa fa-times-circle"></i> 关闭</a>
+		<span class="col-md-3-info">由于图片尺寸或屏幕分辨率可能不统一，继续点击图片任意处可进入拖动和缩放模式观看。</span>
+	</div>
 
 
 
@@ -135,6 +149,22 @@
 				scale: 0.9,
 				reset: true
 			});
+	</script>
+
+
+
+	<script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')</script>
+	<script type="text/javascript" src="js/imageviewer.min.js"></script>
+	<script type="text/javascript">
+		$(function () {
+            var viewer = ImageViewer();
+            $('.gallery-items').click(function () {
+                var imgSrc = this.src,
+                    highResolutionImage = $(this).data('high-res-img');
+
+                viewer.show(imgSrc, highResolutionImage);
+            });
+        });
 	</script>
 </body>
 </html>
