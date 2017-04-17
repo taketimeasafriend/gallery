@@ -1,0 +1,18 @@
+.foot {
+    margin-top: 10px;
+    height: 70px;
+    bottom: 0px;
+    background-color: #333;
+    border-top: 1px solid #777;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 0.9em;
+    font-weight: 300;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.foot a {
+    margin: 5px;
+    color: #ccc;
+}
