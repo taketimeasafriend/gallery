@@ -54,6 +54,7 @@ a img {
 }
 
 .photo-head {
+    margin: 5px;
     border-left: 1px solid #aaa;
     border-right: 1px solid #aaa;
     border-bottom: 2px solid #ccc;
