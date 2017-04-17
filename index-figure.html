@@ -6,11 +6,11 @@
 	<link href="images/favicon_books.ico" rel="shortcut icon">
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/head.css" type="text/css" rel="stylesheet">
+	<link href="css/foot.css" type="text/css" rel="stylesheet">
 	<link href="css/landscape.css" type="text/css" rel="stylesheet">
 	<link href="css/to-top.css" type="text/css" rel="stylesheet">
 	<link href="css/imageviewer.css" type="text/css" rel="stylesheet">
 	<link href="css/test.css" type="text/css" rel="stylesheet">
-
 
 	<script src="js/jquery.js?v=1.83.min" type="text/javascript"></script>
 	<script src="js/to-top.js"></script>
@@ -47,54 +47,47 @@
 		</div>
 	</div>
 
-	<!--
-	<div class="cell2">33
-	</div>
-	<div class="cell2">33
-	</div>
-	<div class="cell2">33
-	</div>
-	<div class="test-row">
-		<div class="cell">11
-		</div>
-		<div class="cell">22
-		</div>
-		<div class="cell2">33
-			<a href="#">
-				<img alt="image01" src="images/thumbs/1.jpg">
-				<span>Pointe</span>
-			</a>
-		</div>
-	</div>
-	-->
-
 	<div class="htmleaf-container">
 		<div class="container">
 			<div class="row fooContainer">
-	      <!--添加示意图-->
+				<!--width:400+400+258+258=1316-->
+				<!--width:800+516=1316-->
+	      <!--添加内容页图-->
 				<div class="col-md-3 fooReveal">
-					<a href="#1">
-						<img class="img-thumbnail" src="img/1.jpg">
+					<a href="#201704141655">
+						<img class="img-thumbnail" src="img/landscape/201704141655.png" width="400">
 						<span>
-							<h2>啊啊啊</h2>
-							aaa
+							<h2>title</h2>
+							201704141655
 						</span>
 					</a>
 				</div>
+				<div id="201704141655" class="col-md-3-overlay">
+					<img src="http://ogudt6aal.bkt.clouddn.com/image/landscape/201704141655.jpg" data-high-res-src="http://ogudt6aal.bkt.clouddn.com/image/landscape/201704141655.jpg" alt="" class="gallery-items">
+					<a class="col-md-3-close" href="#none"><i class="fa fa-times-circle"></i> 关闭</a>
+					<span class="col-md-3-info">由于图片尺寸或屏幕分辨率可能不统一，继续点击图片任意处可进入拖动和缩放模式观看。</span>
+				</div>
+
+
+
+
+
+
 
 
 			</div>
 		</div>
 	</div>
 
-  <!--添加详图-->
-	<div id="1" class="col-md-3-overlay">
-		<img src="img/1.jpg" data-high-res-src="img/1.jpg" alt="" class="gallery-items">
-		<a class="col-md-3-close" href="#none"><i class="fa fa-times-circle"></i> 关闭</a>
-		<span class="col-md-3-info">由于图片尺寸或屏幕分辨率可能不统一，继续点击图片任意处可进入拖动和缩放模式观看。</span>
-	</div>	</div>
-
-
+	<div class="foot">
+		<a href="https://github.com/taketimeasafriend" target="view_window"><i class="fa fa-github"></i>Github</a>
+		 -
+		<a href="http://weibo.com/miaoxiaogege" target="view_window"><i class="fa fa-weibo"></i>微博</a>
+		 -
+	  <a href="http://ogudt6aal.bkt.clouddn.com/image/whynotwangwei.jpeg" target="view_window"><i class="fa fa-weixin"></i>微信</a>
+	   -
+	  <a href="mailto:taketimeasafriend@gmail.com?subject=I%20want%20to%20say%20&body=Hello%20"><i class="fa fa-envelope"></i>邮箱</a>: taketimeasafriend@gmail.com
+	</div>
 <!--------------------------------------------------------------------------------------------------------------------------->
 <!--------------------------------------------------------------------------------------------------------------------------->
   <!--返回顶部-->
@@ -136,5 +129,7 @@
             });
         });
 	</script>
+	<!--canvas-nest效果-->
+	<script type="text/javascript" color="255,255,255" opacity="1.0" count="99" zIndex="-2" src="js/canvas-nest.js"></script>
 </body>
 </html>
