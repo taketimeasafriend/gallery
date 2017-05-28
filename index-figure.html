@@ -10,6 +10,8 @@
 	<link href="css/landscape.css" type="text/css" rel="stylesheet">
 	<link href="css/to-top.css" type="text/css" rel="stylesheet">
 	<link href="css/imageviewer.css" type="text/css" rel="stylesheet">
+	<link href="css/zaixianqq.css" type="text/css" rel="stylesheet">
+
 	<link href="css/test.css" type="text/css" rel="stylesheet">
 
 	<script src="js/jquery.js?v=1.83.min" type="text/javascript"></script>
@@ -133,5 +135,24 @@
 	</script>
 	<!--canvas-nest效果-->
 	<script type="text/javascript" color="255,255,255" opacity="1.0" count="99" zIndex="-2" src="js/canvas-nest.js"></script>
+
+	<!-- 代码部分begin -->
+	<div id='cs_box'>
+		<span class='cs_title'>-在线吐槽-</span>
+		<span class='cs_close'>x</span>
+		<div class='cs_img'></div>
+		<span class='cs_info'>有什么想哔哔？</span>
+		<div class='cs_btn'>点击开撩</div>
+	</div>
+	<script src="js/zaixianqq.js"></script>
+	<script>
+		myEvent(window,'load',function(){
+			cs_box.set({
+				qq : '1965354023',	//设置QQ号码
+			});
+		});
+	</script>
+	<!-- 代码部分end -->
+
 </body>
 </html>

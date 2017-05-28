@@ -1,0 +1,62 @@
+#cs_box {
+    width: 120px;
+    height: 220px;
+    color: #FFF;
+    background: #333;
+    position: fixed;
+    right: 10px;
+    top: 100px;
+    border-radius: 10px;
+    border: 1px solid #777;
+    z-index: 1000
+}
+
+#cs_box span {
+    height: 20px;
+    line-height: 20px;
+    display: block;
+}
+
+.cs_close {
+    color: #FFF;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif
+}
+
+.cs_title {
+    font-size: 14px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.cs_img {
+    width: 100px;
+    height: 100px;
+    background: #FFF;
+    margin: 10px;
+    background-image: url(http://ogudt6aal.bkt.clouddn.com/image/zaixianqq.png)
+}
+
+.cs_info {
+    font-size: 12px;
+    margin: 0px 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cs_btn {
+    width: 100px;
+    height: 25px;
+    background: #666;
+    margin: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 25px;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+}
